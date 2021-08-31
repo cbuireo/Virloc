@@ -128,7 +128,7 @@ public class AppPricipal {
 				// Guardamos en log TXT si está seteado en el config
 				txt.setMensaje(mensaje);
 				txt.graba();
-				
+
 				//Instanciamos la clase para armar el ack
 				Ack ack = new Ack(mensaje);
 				
